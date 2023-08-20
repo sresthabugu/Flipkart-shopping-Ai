@@ -1,0 +1,154 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px;
+    padding: 0;
+    background-color:black;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+  }
+  #scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#scrollToTop:hover {
+    background-color: greenyellow;
+}
+
+  .hr{
+    border: none;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    border-image-slice: 1;
+    width: 100%;
+    margin: 20px 0;
+}
+  .navbar {
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+    border: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar a:hover{
+    color: greenyellow;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+
+  header {
+    color:greenyellow;
+    text-align: center;
+    margin-top: 8rem;
+
+  }
+  .section-2-container {
+    margin-top: 60px;
+    height: 280px;
+    background-image: url('https://assets.vogue.com/photos/58916f9297a3db337a24a570/master/w_2560%2Cc_limit/00-male-models.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+}
+#wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  height:auto; 
+  width:auto;
+}
+#inner1{
+  float:right; 
+}
+#inner2{
+  float:right; 
+} 
+
+
+.context{
+  margin-left:auto;
+  margin-right:100px;
+  font-family:'Courier New', Courier, monospace ;
+  text-align: right;
+  color:greenyellow;
+
+}
+
+.sect{
+  padding: 100px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  text-decoration:double;
+  font-size:x-large;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+  color:greenyellow;
+
+}
+.image-grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  
+  color:greenyellow;
+
+  }
+
+.image-grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  color:#fff;
+  align-items: center;
+  padding: 60px;
+  padding-left: 100px;
+  border: 2px solid greenyellow;
+  
+}
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
+  
+}
+
+
+
